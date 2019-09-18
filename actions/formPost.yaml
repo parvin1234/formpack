@@ -1,0 +1,34 @@
+name: formPost
+pack: form_pck
+runner_type: "python-script"
+description: print Form
+enabled: true
+entry_point: formPost.py
+parameters:
+  ID:
+    type: integer
+    description: print Id
+    required: true
+    position: 1
+  Title:
+    type: string
+    description: print Title
+    required: true
+    position: 2
+  Description:
+    type: string
+    description: print Description
+    required: true
+    position: 3
+  PageCount:
+    type: integer
+    description: print PageCount
+    required: true
+    position: 4
+  Excerpt:
+    type: string
+    description: print Excerpt
+    required: true
+    position: 5
+  
+  

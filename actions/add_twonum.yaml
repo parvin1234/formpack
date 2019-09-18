@@ -1,0 +1,17 @@
+name: add_twonum
+pack: fourth_pck
+runner_type: "python-script"
+description: print hello world
+enabled: true
+entry_point: add_twonum.py
+parameters:
+  a:
+    type: integer
+    description: print hello
+    required: true
+    position: 1
+  b:
+    type: integer
+    description: print hello
+    required: true
+    position: 2

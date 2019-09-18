@@ -1,0 +1,13 @@
+name: postbookApi
+pack: fourth_pck
+runner_type: "python-script"
+description: print Json
+enabled: true
+entry_point: postbookApi.py
+parameters:
+  apiUrl:
+    type: string
+    description: print Json
+    required: true
+    position: 1
+  
