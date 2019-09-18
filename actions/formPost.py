@@ -14,6 +14,6 @@ class PostBookApi(Action):
         header = {'Content-Type': 'application/json','Accept': 'application/json'}
         data = json.dumps(payload)
         response = requests.post(url=apiUrl,data=data,headers=header)
-        print(response.json())
+        
 
 
