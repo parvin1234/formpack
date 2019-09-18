@@ -10,7 +10,7 @@ class PostBookApi(Action):
         date = datetime.datetime.now()
         payload = { "ID": ID,"Title": Title,
         "Description": Description,"PageCount": PageCount,
-        "Excerpt": Excerpt,"PublishDate": date}
+        "Excerpt": Excerpt,"PublishDate": "$date"}
         header = {'Content-Type': 'application/json','Accept': 'application/json'}
         data = json.dumps(payload)
         response = requests.post(url=apiUrl,data=data,headers=header)
