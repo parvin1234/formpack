@@ -1,0 +1,15 @@
+name: formPost
+pack: form_pck
+runner_type: "python-script"
+description: print Form
+enabled: true
+entry_point: chatMessage.py
+parameters:
+  Message:
+    type: string
+    description: print Message
+    required: true
+    position: 1
+  
+  
+  
